@@ -1,0 +1,3 @@
+{
+  "mongoURI" : "mongodb+srv://livraria:livraria123@cluster0.wlvylve.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+}
