@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import "../styles.css";
 import { Link } from "react-router-dom";
-import DataTable from '../components/DataTable';
+import DataTable from '../DataTable';
 import API from "../API";
 
 function ShowBookList() {
