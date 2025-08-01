@@ -2,14 +2,14 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import "../styles.css";
 import { Link } from "react-router-dom";
-import DataTable from '../Components/DataTable';
+import DataTable from '../components/DataTable';
 import API from "../API";
 
 function ShowBookList() {
   const [books, setBooks] = useState([]);
 
   useEffect(() => {
-    //axios.get("http://localhost:8082/api/books")
+    axios.get("http://localhost:8082/api/books")
     API.get("/api/books")
       .then((res) => {
         console.log(`Data has been received! ${res.data}`);
